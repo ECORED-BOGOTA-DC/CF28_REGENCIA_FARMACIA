@@ -43,37 +43,37 @@
     .row.justify-content-center.align-items-center.bg-1-tema-1
       .row.justify-content-center.align-items-center.mt-5
         .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-primario.p-5.w_t_s_2
-            .tarjeta-numerada__numero
+          .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #81D4FA !important")
+            .tarjeta-numerada__numero(style="background-color: #81D4FA !important")
               .h2 1
 
             p.text-center Cuando quedamos pendientes de entregar un producto de la prescripción médica y prometemos enviarlo a cierta hora y lo hacemos llegar más tarde, al otro día o ni se hace llegar.
 
         .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-secundario.p-5.w_t_s_2
-            .tarjeta-numerada__numero
+          .tarjeta-numerada.color-secundario.p-5.w_t_s_2.bgColor_numeral
+            .tarjeta-numerada__numero(style="background-color: #CBBFF4 !important")
               .h2 2
 
             p.text-center Cuando constantemente tenemos faltantes en el inventario, es decir, repetidas veces respondemos “me aparecen 50 unidades, pero no están físicas” o “de ese producto no tengo, se me agotó”.
 
         .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5.w_t_s_2
-            .tarjeta-numerada__numero
+          .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #4CEBFF !important")
+            .tarjeta-numerada__numero(style="background-color: #4CEBFF !important")
               .h2 3
             p.text-center 
               Cuando se entregan productos completos y a tiempo, pero sus empaques están sucios o rotos, lo que da muy mala impresión del producto al punto de poner en tela de juicio la calidad de este.
 
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-4
-          .tarjeta-numerada.color-primario.p-5.w_t_s_2
-            .tarjeta-numerada__numero
+          .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #4CEBFF !important")
+            .tarjeta-numerada__numero(style="background-color: #4CEBFF !important")
               .h2 4
 
             p.text-center Cuando prometemos que el domicilio llega en media hora y realmente le llega al cliente una hora o hasta más tiempo después.
 
         .col-lg-4
-          .tarjeta-numerada.color-secundario.p-5.w_t_s_2
-            .tarjeta-numerada__numero
+          .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #81D4FA !important")
+            .tarjeta-numerada__numero(style="background-color: #81D4FA !important")
               .h2 5
 
             p.text-center Cuando se da un precio al inicio y al momento de facturar este es mayor.
