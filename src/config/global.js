@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Informe de control de inventarios',
+    descripcionCurso:
+      'En este componente formativo se abordan los conocimientos de la competencia “Controlar los inventarios según indicadores y métodos”, con el fin de que los aprendices reconozcan cada una de las herramientas y mecanismos de control establecidos por el establecimiento farmacéutico y de tal forma puedan realizar de manera eficaz el seguimiento al inventario. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
