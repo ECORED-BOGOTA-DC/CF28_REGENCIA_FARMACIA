@@ -14,6 +14,14 @@ export default {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
+      },
     ],
   },
   menuPrincipal: {
@@ -32,28 +40,48 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Promesa del cliente',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Contabilidad básica',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Estadística',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Bioestadística',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Clasificación de la estadística',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Conceptos básicos de estadística',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Presentación de la información',
+            hash: 't_3_4',
+          },
+          {
+            numero: '3.5',
+            titulo: 'Gráficos',
+            hash: 't_3_5',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -103,32 +131,137 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Contabilidad básica',
+      referencia:
+        'Gerencie.com. (2020). <i>Contabilidad - Qué es y para qué sirve.</i>',
+      tipo: 'Página web',
+      link: 'https://www.gerencie.com/contabilidad.html',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Contabilidad básica',
+      referencia:
+        'Economía desde casa. (2021). <i>Libro diario y mayor [Video].</i> YouTube. ',
+      tipo: 'Vídeo',
+      link:
+        'https://www.youtube.com/watch?v=SCw71-zsyBo&ab_channel=EconomiaDesdeCasa ',
+    },
+    {
+      tema: 'Estadística',
+      referencia:
+        'Shurprofe. (2019). <i>Gráficos estadísticos, diagrama de barras, histograma, diagrama sectores, Estadística Descriptiva [Video].</i> YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=RE9eNdJuMGQ&ab_channel=shurprofe',
+    },
+    {
+      tema: 'Estadística',
+      referencia:
+        'Alex, M. (2017). <i>Varianza, Desviación Estándar y Coeficiente de Variación | Datos agrupados en intervalos [Video].</i> YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://youtu.be/1myBo87lYyU',
+    },
+    {
+      tema: 'Estadística',
+      referencia:
+        'Alex, M. (2017). <i>Media, mediana y moda | Datos agrupados en intervalos Ejemplo 1 [Video].</i> YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://www.youtube.com/watch?v=5bZXpfxwHqk',
+    },
+    {
+      tema: 'Estadística',
+      referencia:
+        'Alex, M. (2017). <i>Tabla de frecuencias agrupada en intervalos | Ejemplo 1. [Video].</i> YouTube.',
+      tipo: 'Vídeo',
+      link: 'https://youtu.be/CuKr7GzohbI',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Anticiparse',
+      significado:
+        'Hacer una cosa antes que otra persona o antes de lo previsto o actuar con mayor rapidez de reflejos que ella, previendo de antemano su reacción o respuesta.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Cuantía',
+      significado:
+        'Número de unidades, tamaño o porción de una cosa, especialmente cuando es indeterminado.',
+    },
+    {
+      termino: 'Diferido (contabilidad)',
+      significado:
+        'Gastos ya pagados, pero aún no utilizados, cuyo objetivo es no afectar la información financiera de la empresa en los periodos en los que aún no se han consumido esos recursos.',
+    },
+    {
+      termino: 'Ecuación contable',
+      significado:
+        'Es la representación matemática de la igualdad presente en la conformación patrimonial de la empresa, donde lo que se debe es igual a lo que se tiene.',
+    },
+    {
+      termino: 'Persona jurídica',
+      significado:
+        'También denominada persona moral o ficticia, es una organización o institución formada por varias personas físicas y que posee personalidad jurídica, es decir, tiene capacidad independiente de la de sus miembros para ser titular de obligaciones y derechos.',
+    },
+    {
+      termino: 'Persona natural',
+      significado:
+        'Es aquel individuo que al actuar en su propio nombre se ocupa de alguna o algunas actividades que la ley considera mercantiles',
+    },
+    {
+      termino: 'Protocolización de la escritura pública',
+      significado:
+        'Es el acto por el cual un notario o escribano incorpora los documentos y actas que autoriza a un "protocolo notarial", que a su vez constituye una serie ordenada de escrituras matrices dotadas de formalidades específicas determinadas por la ley, que posteriormente pueden ser convertidas en escrituras públicas.',
+    },
+    {
+      termino: 'Rotación',
+      significado:
+        'Control o proceso de inventario que corresponde a la inspección y revisión de los materiales y el estado de los equipos con los que se cuentan.',
+    },
+    {
+      termino: 'Terceros',
+      significado:
+        'Es cualquier persona natural o jurídica ajena a la empresa, como es un cliente, un proveedor, un trabajador, un banco, etc.',
+    },
+    {
+      termino: 'Valor residual',
+      significado:
+        'El valor residual o de salvamento, es el mínimo valor por el cual se debe vender un activo, cuando se va a dar de baja, ya bien sea por venta, subasta, donación o chatarrización.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Bolaño, C. Yy Álvarez, J. (1995). Contabilidad Comercial. Editora norma 1995',
       link: '',
+    },
+    {
+      referencia: 'Certus., (2019). ¿Qué es un proceso contable?',
+      link: 'https://www.certus.edu.pe/blog/que-es-un-proceso-contable/',
+    },
+    {
+      referencia:
+        'GestioPolis.com Experto. (2017). Principios de Contabilidad ¿Qué son? ¿Cuáles son? ¿Para qué sirven? ',
+      link:
+        'https://www.gestiopolis.com/principios-de-contabilidad-que-son-cuales-son-para-que-sirven/',
+    },
+    {
+      referencia:
+        'Cajas Vissoni, J. (2005). Manual de contabilidad básica. 14/08/2018, de studylib Sitio web:',
+      link: 'http://studylib.es/doc/640313/conceptos-generales-de-contabilidad',
+    },
+    {
+      referencia:
+        'Perea, Y. (2021). Estadística descriptiva. Instructor Centro de Servicios de Salud.',
+      link: '',
+    },
+    {
+      referencia:
+        'Quijano, V. (2021). Importancia del cumplimiento de promesas con los clientes.',
+      link:
+        'https://victorquijano.com/blog/que-es-el-cumplimiento-de-promesas-y-por-que-es-tan-importante-para-los-clientes/',
+    },
+    {
+      referencia: 'Sofistica, (2018). Cómo mejorar tus tiempos de entrega.',
+      link:
+        'https://blog.solistica.com/como-mejorar-tus-tiempos-de-entrega-infografia',
     },
   ],
   creditos: [
