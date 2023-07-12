@@ -12,7 +12,7 @@
         p <b>La contabilidad es una técnica</b> que tiene como finalidad apoyar y optimizar los procesos de la administración y de la economía en una organización empresarial, su enseñanza requiere de objetivos claramente definidos y prácticos, factibles de aplicar con exacta precisión.
 
          .cajon.color-secundario.p-4
-          p <b>Decreto 2649 de 1993</b> Por el cual se reglamenta la contabilidad en general y se expiden los principios o normas de contabilidad generalmente aceptados… Art. 1°. <b>Definición</b>. De conformidad con el artículo 68 de la Ley 43 de 1990, se entiende por principios o normas de contabilidad generalmente aceptados en Colombia, el conjunto de conceptos básicos y de reglas que deben ser observados al registrar e informar contablemente sobre los asuntos y actividades de personas naturales  o jurídicas. Apoyándose en ellos, la contabilidad permite identificar, medir, clasificar, registrar, interpretar, analizar, evaluar e informar, las operaciones de un ente económico, en forma clara, completa y fidedigna.
+          p.mb-0 <b>Decreto 2649 de 1993</b> Por el cual se reglamenta la contabilidad en general y se expiden los principios o normas de contabilidad generalmente aceptados… Art. 1°. <b>Definición</b>. De conformidad con el artículo 68 de la Ley 43 de 1990, se entiende por principios o normas de contabilidad generalmente aceptados en Colombia, el conjunto de conceptos básicos y de reglas que deben ser observados al registrar e informar contablemente sobre los asuntos y actividades de personas naturales  o jurídicas. Apoyándose en ellos, la contabilidad permite identificar, medir, clasificar, registrar, interpretar, analizar, evaluar e informar, las operaciones de un ente económico, en forma clara, completa y fidedigna.
 
         p A continuación, se explicará su definición, funciones, objetivo, características de la información contable y principios de contabilidad.
 
@@ -33,7 +33,7 @@
     .row.justify-content-center.align-items-center.mb-5.mt-5
       p.text-center <b>La contabilidad tiene las siguientes funciones:</b>
 
-      .col-lg-4
+      .col-lg-4.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img3.png', alt='alt')
 
@@ -63,21 +63,21 @@
 
     .row.justify-content-center.align-items-center.mt-5
       p.text-center <b>Sus objetivos son:</b>
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-4.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.p-5.w_t_s_2
           .tarjeta-numerada__numero
             .h2 1
 
           p.text-center Proveer una imagen basada en un número que refleje el contexto real de la compañía sus actividades, el conocimiento del patrimonio y las modificaciones que surjan.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5.w_t_s_2
-          .tarjeta-numerada__numero
+      .col-md-4.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-5.w_t_s_2(style="border-color: #CBBFF4 !important")
+          .tarjeta-numerada__numero(style="background-color: #CBBFF4 !important")
             .h2 2
 
           p.text-center Facilitar resultados, expresado en cifras para dar orientación a la gerencia en la toma de decisiones.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-4.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.p-5.w_t_s_2
           .tarjeta-numerada__numero
             .h2 3

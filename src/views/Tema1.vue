@@ -8,12 +8,12 @@
       h1 Promesa del cliente
 
     .row.justify-content-center.align-items-center
-      .col-lg-4
+      .col-lg-4.mb-4
         figure
           img(src='@/assets/curso/temas/tema1/img1.png', alt='alt')
       .col-lg-8
         .cajon.color-secundario.p-4
-          p Los clientes son la razón de ser de una empresa, por lo cual ofrecerles un buen servicio y a tiempo es de vital importancia para su fidelización.  
+          p.mb-0 Los clientes son la razón de ser de una empresa, por lo cual ofrecerles un buen servicio y a tiempo es de vital importancia para su fidelización.  
 
         p.mt-3 Es importante tener presente que son los clientes quienes determinan si la organización cumple o no cumple con las promesas divulgadas, porque para ellos cumplir con lo prometido es:
 
@@ -40,38 +40,38 @@
 
         p A continuación, se plantean algunos ejemplos de promesas al cliente y cómo se puede caer fácilmente en el incumplimiento.     
 
-    .row.justify-content-center.align-items-center.bg-1-tema-1
+    .bg1-tema1
       .row.justify-content-center.align-items-center.mt-5
-        .col-md-6.col-xl.mb-4.mb-xl-0
+        .col-md-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #81D4FA !important")
             .tarjeta-numerada__numero(style="background-color: #81D4FA !important")
               .h2 1
 
             p.text-center Cuando quedamos pendientes de entregar un producto de la prescripción médica y prometemos enviarlo a cierta hora y lo hacemos llegar más tarde, al otro día o ni se hace llegar.
 
-        .col-md-6.col-xl.mb-4.mb-xl-0
+        .col-md-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-secundario.p-5.w_t_s_2.bgColor_numeral
             .tarjeta-numerada__numero(style="background-color: #CBBFF4 !important")
               .h2 2
 
             p.text-center Cuando constantemente tenemos faltantes en el inventario, es decir, repetidas veces respondemos “me aparecen 50 unidades, pero no están físicas” o “de ese producto no tengo, se me agotó”.
 
-        .col-md-6.col-xl.mb-4.mb-xl-0
+        .col-md-4.col-xl.mb-4.mb-xl-0
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #4CEBFF !important")
             .tarjeta-numerada__numero(style="background-color: #4CEBFF !important")
               .h2 3
             p.text-center 
               Cuando se entregan productos completos y a tiempo, pero sus empaques están sucios o rotos, lo que da muy mala impresión del producto al punto de poner en tela de juicio la calidad de este.
 
-      .row.justify-content-center.align-items-center.mt-5
-        .col-lg-4
+      .row.justify-content-center.align-items-center.mt-3
+        .col-lg-4.mb-4
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #4CEBFF !important")
             .tarjeta-numerada__numero(style="background-color: #4CEBFF !important")
               .h2 4
 
             p.text-center Cuando prometemos que el domicilio llega en media hora y realmente le llega al cliente una hora o hasta más tiempo después.
 
-        .col-lg-4
+        .col-lg-4.mb-4
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #81D4FA !important")
             .tarjeta-numerada__numero(style="background-color: #81D4FA !important")
               .h2 5

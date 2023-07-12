@@ -54,11 +54,11 @@
   background-color: #EEEAFC
 
 
-//Estilos Tema 1
+//Estilos Tema 1 --------------------------------------------------------
 
 .w_t_s_2
-  height: 215px
-  width: 350px
+  height: 250px
+  width: 320px
 
 //lista con icono
 
@@ -82,7 +82,24 @@
         left: 50%
         transform: translate(-50%, -50%)
         font-size: 30px
-        
+
+.bg1-tema1
+  position: relative
+  .row, figure, p, h3, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: -15px
+    width: calc( 100% + 96px )
+    height: 110%       
+    background-image: url('../assets/curso/temas/tema1/bg1-tema1.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top
+    @media (max-width: 500px)
+      background-repeat: space    
       
               
     
@@ -129,7 +146,7 @@
   &::before
     background: #12263F
 
-.bg-1-tema-1
+//.bg-1-tema-1
   background-image: url("../assets/curso/temas/tema1/bg1.png")
   background-size: 100% 100% 
 
@@ -241,8 +258,9 @@
 
 // tarjeta-numerada --------------------------------------
 
-//.tarjeta-numerada
-  height: 350px !important
+.w_t_s_3
+  height: 350px
+  width: 320px
 
 // Pasos A -------------------
 

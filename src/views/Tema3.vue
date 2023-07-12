@@ -140,14 +140,14 @@
        h2 3.3 Conceptos básicos de estadística
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-5
+      .col-lg-5.mb-3
         figure
           img(src='@/assets/curso/temas/tema3/img7.svg', alt='alt')
 
       .col-lg-7
         p El estudio de la estadística acoge una serie de significados, ideas y palabras con un determinado sentido en el día a día, pero que presentan una ligera diferencia o implicaciones completamente opuestas, estas son:
 
-        .row.mb-5
+        .row.mt-5
           .col-lg-7
             .list.mb-3(data-aos="fade-down")
               .list__item
@@ -158,7 +158,7 @@
 
         p Un dato es un registro o anotación que se realiza del estado de un fenómeno en un momento específico.
 
-        .row.mb-5
+        .row.mt-5
           .col-lg-7
             .list.mb-3(data-aos="fade-down")
               .list__item
@@ -420,20 +420,20 @@
 
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-primario.p-5
+      .col-md-4.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-primario.p-5.w_t_s_3
           .tarjeta-numerada__numero
             .h2 1
           p En un estudio a nivel de hogares sobre el estado higiénico de la familia, la unidad de observación son los diferentes sitios que existen en la vivienda y en quienes se evalúa su estado higiénico y la unidad de análisis es la vivienda.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-secundario.p-5
-          .tarjeta-numerada__numero
+      .col-md-4.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-secundario.p-5.w_t_s_3(style="border-color: #CBBFF4 !important")
+          .tarjeta-numerada__numero(style="background-color: #CBBFF4 !important")
             .h2 2
           p En un estudio donde se desea evaluar la situación laboral de las personas que conforman las familias de una comunidad, mayores de 18 años, la unidad de observación son las personas mayores de 18 años en quienes se analizará su situación laboral y la unidad de análisis es la familia.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
-        .tarjeta-numerada.color-acento-contenido.p-5
+      .col-md-4.col-xl.mb-4.mb-xl-0
+        .tarjeta-numerada.color-acento-contenido.p-5.w_t_s_3
           .tarjeta-numerada__numero
             .h2 3
           p En un estudio donde se pretende determinar la relación entre el peso y la talla del recién nacido, la unidad de observación y la unidad de análisis coinciden, esto es, el recién nacido.
@@ -1041,7 +1041,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         .cajon.color-primario.p-4.mb-4
-          p.mb-4 Son una manera muy funcional de presentar datos o de manifestar ideas que se desea destaquen. Los gráficos son la manera visual de representar los datos, en donde se evidencian fundamentalmente 3 características:
+          p.mb-0 Son una manera muy funcional de presentar datos o de manifestar ideas que se desea destaquen. Los gráficos son la manera visual de representar los datos, en donde se evidencian fundamentalmente 3 características:
 
         ul.lista-ul--color.ps-lg-4.fa-ul2.mb-4
           li
