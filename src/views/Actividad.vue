@@ -9,7 +9,7 @@
           figure
             img(src="@/assets/template/arrastrar_Soltar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
+        .titulo-segundo.color-acento-contenido
           h2 Conceptos básicos de estadística
         p.mb-4 Brindar a los aprendices conocimientos y comprensión de conceptos básicos de estadística para análisis de datos y toma de decisiones informadas basadas en evidencia.
         .tarjeta.actividad.p-3
