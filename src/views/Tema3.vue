@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Estadística
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -128,6 +128,8 @@
     #t_3_2.titulo-segundo.color-acento-contenido
        h2 3.2 Clasificación de la estadística
 
+    .row.mb-3
+      h4.text-center La estadística se clasifica en:
     
     .bg1-tema3.mb-5
       figure
@@ -231,7 +233,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img13.png', alt='Texto que describa la imagen')
 
-        .py-4.py-md-5(titulo="Definición" :icono="require('@/assets/curso/temas/tema3/img14.svg')")
+        .py-4.py-md-5(titulo="Clases de población" :icono="require('@/assets/curso/temas/tema3/img14.svg')")
           .row.justify-content-center.align-items-center
             .col-md-10.mb-4.mb-md-0
               p.text-center Las poblaciones se dividen en dos clases:
@@ -240,7 +242,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img15.svg', alt='Texto que describa la imagen')
 
-        .py-4.py-md-5(titulo="Clases de población" :icono="require('@/assets/curso/temas/tema3/img16.svg')")
+        .py-4.py-md-5(titulo="Características observables en una población" :icono="require('@/assets/curso/temas/tema3/img16.svg')")
           .row.justify-content-center.align-items-center
             .col-md-11.mb-4.mb-md-0
               p.mb-0 Lo observable a los componentes de una población son sus peculiaridades o la potencia con la que se enseña una magnitud.
@@ -360,7 +362,7 @@
             .list__item__icon
               img(src='@/assets/curso/temas/tema1/icon1.svg', alt='')
           .list__txt
-            h4.mb-0.tv.margin-icon <span style='border-bottom: 2px solid #00BCD4'>Estadístico o estadígrafo</span>
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 2px solid #00BCD4'> Estudios estadísticos</span>
 
     .row.justify-content-center.align-items-center.mb-5
       h5.text-center.mb-4 Los estudios estadísticos pueden ser:
@@ -595,34 +597,31 @@
           .tarjeta.tarjeta-morada.p-4(titulo="Planeamiento")
             p Durante todo el proceso la fase más relevante es la del planteamiento, ya que la calidad de los resultados obtenidos depende de la correcta elaboración y desarrollo, de cada una de las etapas que componen dicha fase. Esta fase incluye:
 
-            ImagenInfografica.color-acento-botones
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/temas/tema3/img28.svg', alt='Texto que describa la imagen')
+            .row.justify-content-center.align-items-center
+              .col-lg-11
+                ImagenInfografica.color-acento-botones
+                  template(v-slot:imagen)
+                    figure
+                      img(src='@/assets/curso/temas/tema3/img28.svg', alt='Texto que describa la imagen')
 
-              .tarjeta.color-primario--borde.p-3(x="22%" y="24%" numero="+")
-                p #[b Finalidad de la investigación.] Resultado puntual que se va a logar del estudio estadístico. Normalmente se expresa en forma de una pregunta y a esta se le denomina: pregunta de investigación.
+                  .tarjeta.color-primario--borde.p-3(x="29%" y="24%" numero="+")
+                    p #[b Finalidad de la investigación.] Resultado puntual que se va a logar del estudio estadístico. Normalmente se expresa en forma de una pregunta y a esta se le denomina: pregunta de investigación.
 
-              .tarjeta.color-primario--borde.p-3(x="99%" y="24%" numero="+")
-                p #[b Naturaleza o clase de los datos.] Todos los datos, que se recolectan sobre un fenómeno, se pueden clasificar básicamente en dos categorías: datos de naturaleza cualitativa y datos de naturaleza cuantitativa.
+                  .tarjeta.color-primario--borde.p-3(x="63%" y="24%" numero="+")
+                    p #[b Naturaleza o clase de los datos.] Todos los datos, que se recolectan sobre un fenómeno, se pueden clasificar básicamente en dos categorías: datos de naturaleza cualitativa y datos de naturaleza cuantitativa.
 
-              .tarjeta.color-primario--borde.p-3(x="22%" y="76%" numero="+")
-                p #[b Fuentes de la información.] Las fuentes de información de donde se pueden obtener los datos son fuentes de información primarias y secundarias. Las fuentes de información son primarias cuando los datos que se procesan se han obtenido directamente (realizadores del estudio) y son secundarias cuando los datos que se procesan se han obtenido a través de otras de otras personas o entidades, como, por ejemplo, el banco de la república, el DANE, la cámara de comercio o cualquier otro estudio ya realizado.
+                  .tarjeta.color-primario--borde.p-3(x="29%" y="76%" numero="+")
+                    p #[b Fuentes de la información.] Las fuentes de información de donde se pueden obtener los datos son fuentes de información primarias y secundarias. Las fuentes de información son primarias cuando los datos que se procesan se han obtenido directamente (realizadores del estudio) y son secundarias cuando los datos que se procesan se han obtenido a través de otras de otras personas o entidades, como, por ejemplo, el banco de la república, el DANE, la cámara de comercio o cualquier otro estudio ya realizado.
 
-              .tarjeta.color-primario--borde.p-3(x="48%" y="76%" numero="+")
-                p #[b Procedimiento para recolectar los datos.] Se refiere a las actividades que se van a ejecutar para recolectar estos datos. Estas actividades pueden ser: observación directa, encuestas individuales a nivel personal o virtual, entrevistas personales, entrevistas grupales, la experimentación.
+                  .tarjeta.color-primario--borde.p-3(x="63%" y="76%" numero="+")
+                    p #[b Procedimiento para recolectar los datos.] Se refiere a las actividades que se van a ejecutar para recolectar estos datos. Estas actividades pueden ser: observación directa, encuestas individuales a nivel personal o virtual, entrevistas personales, entrevistas grupales, la experimentación.
 
-              .tarjeta.color-primario--borde.p-3(x="73%" y="76%" numero="+")
-                p #[b Diseño de instrumentos.] Los datos deben quedar registrados, por lo cual se requiere diseñar instrumentos para los registros. Por ejemplo, formatos para registro de observaciones, cuestionario o listado de asuntos que se llevaran cabo en una entrevista y la manera de registro de las respuestas de los entrevistados.
+                  .tarjeta.color-primario--borde.p-3(x="98%" y="76%" numero="+")
+                    p #[b Diseño de instrumentos.] Los datos deben quedar registrados, por lo cual se requiere diseñar instrumentos para los registros. Por ejemplo, formatos para registro de observaciones, cuestionario o listado de asuntos que se llevaran cabo en una entrevista y la manera de registro de las respuestas de los entrevistados.
 
-              .tarjeta.color-primario--borde.p-3(x="99%" y="76%" numero="+")
-                p #[b Presupuesto.] Hace referencia la valoración o cálculo de los costos, de cada una de las etapas del estudio.
+                  .tarjeta.color-primario--borde.p-3(x="98%" y="24%" numero="+")
+                    p #[b Presupuesto.] Hace referencia la valoración o cálculo de los costos, de cada una de las etapas del estudio.
 
-              .tarjeta.color-primario--borde.p-3(x="48%" y="24%" numero="+")
-                p #[b Definir la población.] falta información
-
-              .tarjeta.color-primario--borde.p-3(x="73%" y="24%" numero="+")
-                p #[b Unidad de investigación.] falta información
 
           .tarjeta.tarjeta-morada.p-4(titulo="Recolección de los datos")
             .row.justify-content-center.align-items-center
@@ -691,27 +690,40 @@
       TabsB.color-primario(style="background: #E6F7FE")
         .py-4.py-md-5(titulo="Concepto de clase o categoría" :icono="require('@/assets/curso/temas/tema3/img33.svg')")
           .row.justify-content-center.align-items-center
-            .col-md-5.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0
               p En términos generales, una categoría es una agrupación de elementos que poseen una o varias características iguales. Ejemplo, los niños del equipo de baloncesto.
 
               p Un conjunto de categorías se considera como una agrupación de clases estadístico siempre y cuando todas las clases, del conjunto, tengan, sincronizadas, estas tres características:
+
+              ul.lista-ul--color.ps-lg-3.fa-ul2
+                li
+                  i.fas.fa-atom
+                  p.mb-0 <b>Amplitud constante:</b> la amplitud de todas las categorías pertenecientes a un conjunto de categorías (en las cuales se agrupan un determinado grupo de datos) debe ser la misma para todo el conjunto.
+
+                li
+                  i.fas.fa-atom
+                  p.mb-0 <b>Conjunto de clases mutuamente excluyentes:</b> hace referencia a que, de un grupo de datos en investigación, cualquiera de los datos, debe pertenecer en sentido único a una sola categoría.
+
+                li
+                  i.fas.fa-atom
+                  p.mb-0 <b>Conjunto de clases exhaustivas:</b> cuando un conjunto de categorías permite la adherencia a este de todos los datos de una muestra.
           
-            .col-md-7
+            .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/img34.svg', alt='alt')
 
         .py-4.py-md-5(titulo="Clase o categoría estadística" :icono="require('@/assets/curso/temas/tema3/img35.svg')")
           .row.justify-content-center.align-items-center
-            .col-md-5.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0
               p En estadística se denomina clase, al conjunto de datos que hacen parte de un intervalo llamado valores. Por ejemplo, para datos correspondientes a ingresos de personas podemos crear una clase de las personas que tienen ingresos entre $500.000 y $800.000. Toda clase estadística tiene, por lo tanto, un límite inferior y un límite superior. en este caso $500.000 y $800.000 respectivamente.
           
-            .col-md-7
+            .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/img36.png', alt='alt')
 
         .py-4.py-md-5(titulo="Amplitud de clase o intervalo" :icono="require('@/assets/curso/temas/tema3/img37.svg')")
           .row.justify-content-center.align-items-center
-            .col-md-5.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0
               p Es la diferencia que hay entre los límites superior e inferior de un intervalo de clase. Retomando el ejemplo anterior la amplitud de la clase de ingresos es de $300.000. Es decir, que para calcular la amplitud de clase se resta del límite superior de la clase el límite inferior.
 
               p Para expresar estas ideas en símbolos, se llama “A” a la amplitud de la clase, “LS” al límite superior de la clase y LI al límite inferior de la clase, expresando aritméticamente la amplitud de la clase así: 
@@ -722,13 +734,13 @@
 
               i.mb-3 𝐴=𝐿𝑆−𝐿𝐼 =$800.000−$500.000=$300.000
           
-            .col-md-7
+            .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/img38.png', alt='alt')
 
         .py-4.py-md-5(titulo="Antes de empezar" :icono="require('@/assets/curso/temas/tema3/img39.svg')")
           .row.justify-content-center.align-items-center
-            .col-md-5.mb-4.mb-md-0
+            .col-md-6.mb-4.mb-md-0
               p Para describir un acontecimiento representado por un conjunto de datos, la estadística establece que se deben agrupar los datos en un conjunto de clases o categorías y con este conjunto construir la tabla de frecuencias o distribución de frecuencias.
 
               p Para realizar este proceso se deben resolver, en primera instancia, las siguientes preguntas:
@@ -747,7 +759,7 @@
                   i.fas.fa-atom
                   | ¿Cuáles son los límites que debe tener la primera clase?
 
-            .col-md-7
+            .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema3/img40.png', alt='alt')
 
@@ -973,7 +985,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img45.svg', alt='imagen decorativa')
 
-            p.text-center Siguiendo los pasos, Tipo de variable en estudio: para este caso la variable es discreta
+            p.text-center Siguiendo los pasos, <b>Tipo de variable en estudio:</b> para este caso la variable es discreta
           
           .row.justify-content-center.align-items-center
             .col-lg-10
@@ -1031,6 +1043,87 @@
             .col-lg-4
               figure
                 img(src='@/assets/curso/temas/tema3/img46.svg', alt='imagen decorativa')
+
+    .row.mb-5
+      .col-lg-7
+        .list.mb-3(data-aos="fade-down")
+          .list__item
+            .list__item__icon
+              img(src='@/assets/curso/temas/tema1/icon1.svg', alt='')
+          .list__txt
+            h4.mb-0.tv.margin-icon <span style='border-bottom: 2px solid #00BCD4'>Arreglo de datos variable discreta en clases de amplitud cero</span>
+
+    .row.justify-content-center.align-items-center.mb-5
+      .tarjeta.color-tarjeta3.p-5
+        SlyderA(tipo="b")
+          .row.justify-content-center.align-items-center
+            p.text-center La muestra tomada es de 60 facturas y se registra el número de errores por factura.
+
+            b.text-center.mb-5 Los resultados obtenidos son presentados a continuación:
+
+            .col-lg-6.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema3/img56.svg', alt='Imágen decorativa')
+
+            .col-lg-3.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema3/img57.svg', alt='Imágen decorativa')
+
+          .row.justify-content-center.align-items-center
+            p.text-center En una encuesta de presupuesto familiar, se ha obtenido la siguiente información respecto al n° de hijos en 21 familias: Variable x = n° de hijos
+
+            .col-lg-10.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema3/img58.svg', alt='Imágen decorativa')
+
+            .col-lg-3.mb-3
+              p La variable x toma valores entre 0 y 4, es decir, existen en este grupo 5 categorías o clases. Contando el número de familias en cada categoría se forma la tabla.
+
+            .col-lg-7.mb-3
+              figure
+                img(src='@/assets/curso/temas/tema3/img59.png', alt='Imágen decorativa')
+
+          .row.justify-content-center.align-items-center
+            b.text-center.mb-5 Componentes de la tabla de frecuencia:
+
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 #[b n =] tamaño de la muestra.
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 #[b Xi =] valor de la variable en el individuo i
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 #[b fi = frecuencia absoluta.] Nº de veces que se repite la variable en la categoría i
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 #[b Fi = frecuencia absoluta acumulada.] Indica el nº de individuos hasta la categoría i (Suma de las fi)
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 #[b hi = frecuencia relativa.] Porcentaje de la categoría respecto del total, se obtiene dividiendo la frecuencia de la clase por el tamaño de la muestra. (fi/n)
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 #[b Hi = frecuencia relativa acumulada.] Porcentaje acumulado (Suma de las hi)
+
+          .row.justify-content-center.align-items-center
+            b.text-center.mb-5 Detalles importantes en la tabla de frecuencias
+
+            ul.lista-ul--color.fa-ul2
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 n es la suma de la columna fi, es decir, siempre debe dar como resultado el tamaño de la muestra.
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 En la columna de frecuencia absoluta acumulada se va sumando los valores de la columna fi, por lo tanto, el último valor debe ser igual a n.
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 La columna frecuencia relativa (hi) representa en % de familias en cada categoría. Por ejemplo, en las categorías con 3 hijos a un 28.5% de familias. Esta columna debe sumar 1.
+              li
+                i.fas.fa-atom(style="color: #29A2D9")
+                p.mb-0 La Hi acumula los valores de la frecuencia relativa, por lo tanto, el último valor debe ser 1. Ejemplo H4: el 90.4% de las familias encuestadas tienen a los más 3 hijos.
+
+
 
 
     separador
