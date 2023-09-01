@@ -231,7 +231,7 @@
           
             .col-md-10
               figure
-                img(src='@/assets/curso/temas/tema3/img13.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema3/img13.svg', alt='Texto que describa la imagen')
 
         .py-4.py-md-5(titulo="Clases de población" :icono="require('@/assets/curso/temas/tema3/img14.svg')")
           .row.justify-content-center.align-items-center
@@ -920,7 +920,7 @@
                 li
                   i.fas.fa-atom(style="color: #7E5EE3")
                   p.mb-0 <b>Aplicando las fórmulas exponencial o logarítmica.</b> Utilizando la fórmula logarítmica se tiene:
-                   | N<sub>0</sub>C = 1 + 3,3 (41) = 6,3
+                   |  N<sub>0</sub>C = 1 + 3,3 (41) = 6,3
 
           .row.justify-content-center.align-items-center
             b.text-center Establecer la amplitud de las clases:
@@ -992,7 +992,7 @@
               ul.lista-ul--color.ps-lg-4.fa-ul2
                 li
                   i.fas.fa-atom(style="color: #29A2D9")
-                  p.mb-0 Se busca el valor mínimo y el valor máximo #[b Xmín=62 Xmáx = 119]
+                  p.mb-0 Se busca el valor mínimo y el valor máximo #[b Xmín = 62 Xmáx = 119]
                 li
                   i.fas.fa-atom(style="color: #29A2D9")
                   p.mb-0 Se calcula el rango: #[b 119 - 62 = 57.]

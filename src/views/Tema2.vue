@@ -16,7 +16,7 @@
 
         p A continuación, se explicará su definición, funciones, objetivo, características de la información contable y principios de contabilidad.
 
-      .col-lg-4
+      .col-8.col-lg-4
         figure
           img(src='@/assets/curso/temas/tema2/img1.png', alt='alt')
 
@@ -26,14 +26,14 @@
 
         p Es el arte de elaborar registros, clasificar información, resumirla y expresarla en dinero. En este proceso están involucradas todas las operaciones que realice la compañía dentro de su actividad económica.
 
-      .col-lg-3
+      .col-10.col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema2/img2.png', alt='alt')
+          img(src='@/assets/curso/temas/tema2/img2.svg', alt='alt').img2-tm2
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       p.text-center <b>La contabilidad tiene las siguientes funciones:</b>
 
-      .col-lg-4.mb-4
+      .col-10.col-lg-4.mb-4
         figure
           img(src='@/assets/curso/temas/tema2/img3.png', alt='alt')
 
@@ -55,7 +55,7 @@
 
 
           .tarjeta.tarjeta-morada.p-5(titulo="Fiscal")
-            p Es conocer qué y cómo impactan las decisiones fiscales, además de tener conocimiento de todos los impuestos existentes, por ejemplo: impuesto único, IVA, Renta, etc.
+            p Es conocer qué y cómo impactan las decisiones fiscales, además de tener conocimiento de todos los impuestos existentes, por ejemplo: impuesto único, IVA, renta, etc.
 
           .tarjeta.tarjeta-morada.p-5(titulo="Legal")
             p Se trata de poder tener conocimiento de aquellas partes (artículos), relacionados con el código de comercio, del trabajo y otras leyes, que pueden impactar a la compañía desde el punto de vista contable, por  ejemplo: salud, riesgos laborales, asegurador de fondos de pensión, etc.
@@ -63,21 +63,21 @@
 
     .row.justify-content-center.align-items-center.mt-5
       p.text-center <b>Sus objetivos son:</b>
-      .col-md-4.col-xl.mb-4.mb-xl-0
+      .col-10.col-lg-4.mb-4
         .tarjeta-numerada.color-primario.p-5.w_t_s_2
           .tarjeta-numerada__numero
             .h2 1
 
           p.text-center Proveer una imagen basada en un número que refleje el contexto real de la compañía sus actividades, el conocimiento del patrimonio y las modificaciones que surjan.
 
-      .col-md-4.col-xl.mb-4.mb-xl-0
+      .col-10.col-lg-4.mb-4
         .tarjeta-numerada.color-secundario.p-5.w_t_s_2(style="border-color: #CBBFF4 !important")
           .tarjeta-numerada__numero(style="background-color: #CBBFF4 !important")
             .h2 2
 
           p.text-center Facilitar resultados, expresado en cifras para dar orientación a la gerencia en la toma de decisiones.
 
-      .col-md-4.col-xl.mb-4.mb-xl-0
+      .col-10.col-lg-4.mb-4
         .tarjeta-numerada.color-acento-contenido.p-5.w_t_s_2
           .tarjeta-numerada__numero
             .h2 3
@@ -87,11 +87,41 @@
     .row.justify-content-center.align-items-center.mt-5.bg-2-tema-2
       .col-lg-2
         p <b>Ahora, la información contable tiene como característica que es:</b>
+
       .col-lg-6
-        figure
-          img(src='@/assets/curso/temas/tema2/img4.png', alt='alt')
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema2/img4.png', alt='Texto')
+              figcaption Leyenda de la imagen
+
+          .tarjeta.color-primario--borde.p-3(x="50%" y="4%" numero="+")
+            .h5.mb-2 Exacta.
+            p Coincidir con los datos contenidos y reportados en los documentos originales (facturas, cheques, y otros).
+
+          .tarjeta.color-primario--borde.p-3(x="9%" y="25%" numero="+")
+            .h5.mb-2 Verdadera y fidedigna.
+            p Los registros e informes generados deben reflejar la situación real de los hechos.
+
+          .tarjeta.color-primario--borde.p-3(x="9%" y="70%" numero="+")
+            .h5.mb-2 Clara.
+            p Reportar información que no induzca al error y que sea muy comprendida por los miembros de la compañía.
+
+          .tarjeta.color-primario--borde.p-3(x="50%" y="91%" numero="+")
+            .h5.mb-2 Referida a un nivel.
+            p Elaborada según las necesidades de quien recibirá dicha información (destinatario).
+
+          .tarjeta.color-primario--borde.p-3(x="91%" y="70%" numero="+")
+            .h5.mb-2 Económica.
+            p Con un costo inferior al beneficio que reporta.
+
+          .tarjeta.color-primario--borde.p-3(x="91%" y="25%" numero="+")
+            .h5.mb-2 Oportuna.
+            p Disponible al momento que la información sea requerida.
+
+
       .col-lg-4
-        p Con la finalidad que los estados de los aspectos financieros sean entendidos por terceros, es muy importante que sean preparados siguiendo unas reglas establecidas y/o convenciones que se conozcan previamente y que sean aceptadas de manera general.
+        p Con la finalidad que los estados de los aspectos financieros sean entendidos por terceros, es muy importante que sean preparados siguiendo unas reglas establecidas o convenciones que se conozcan previamente y que sean aceptadas de manera general.
 
         p Dichos principios son muy puntuales y representan reglas básicas relacionadas con las normas, derivados de los factores económicos y políticos del medio ambiente, culturas, formas de pensar y la forma como esté segmentada la comunidad que está involucrada en el mundo de los negocios.
 
@@ -102,7 +132,7 @@
     LineaTiempoD.color-acento-contenido.mt-5
       .row(numero="1" titulo="Equidad")
         .col-md-12.mb-4.mb-md-0
-          p Este principio contable debe ser una preocupación constante en contabilidad, ya que cada una de las partes involucradas, que utilizan los datos contables, puedan poner sus intereses particulares por encima del bien común. Por esta misma razón, se debe tener muy presente que los estados financieros reflejen equidad entre las partes. Este principio es la base sobe la que se sostienen los demás principios.
+          p Este principio contable debe ser una preocupación constante en contabilidad, ya que cada una de las partes involucradas, que utilizan los datos contables, pueden poner sus intereses particulares por encima del bien común. Por esta misma razón, se debe tener muy presente que los estados financieros reflejen equidad entre las partes. Este principio es la base sobre la que se sostienen los demás principios.
 
       .row(numero="2" titulo="Entidad contable")
         .col-md-12.mb-4.mb-md-0

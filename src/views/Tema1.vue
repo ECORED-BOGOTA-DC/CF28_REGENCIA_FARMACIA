@@ -19,59 +19,59 @@
 
         .row.justify-content-center.mb-4
           .col-lg-4
-            ul.lista-ul--color
+            ul.lista-ul--color.fa-ul2
               li
                 i.fas.fa-atom(style='color: #7E5EE3') 
-                | Una venta a tiempo
+                | Una venta a tiempo.
 
           .col-lg-4
-            ul.lista-ul--color
+            ul.lista-ul--color.fa-ul2
               li
                 i.fas.fa-atom(style='color: #7E5EE3') 
-                | Cantidades completas
+                | Cantidades completas.
 
           .col-lg-4
-            ul.lista-ul--color
+            ul.lista-ul--color.fa-ul2
               li
                 i.fas.fa-atom(style='color: #7E5EE3') 
                 | Excelente calidad en los productos.
 
-        p Según estudios, un 93% de los consumidores manifiestan incumplimiento en su adquisición, lo que significa que muy posiblemente la mayoría de las organizaciones están trabajando soportados más sobre su propia percepción que en la del cliente.
+        p Según estudios, un 93 % de los consumidores manifiestan incumplimiento en su adquisición, lo que significa que muy posiblemente la mayoría de las organizaciones están trabajando soportados más sobre su propia percepción que en la del cliente.
 
         p A continuación, se plantean algunos ejemplos de promesas al cliente y cómo se puede caer fácilmente en el incumplimiento.     
 
     .bg1-tema1
       .row.justify-content-center.align-items-center.mt-5
-        .col-md-4.col-xl.mb-4.mb-xl-0
+        .col-10.col-lg-4.mb-4
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #81D4FA !important")
             .tarjeta-numerada__numero(style="background-color: #81D4FA !important")
               .h2 1
 
             p.text-center Cuando quedamos pendientes de entregar un producto de la prescripción médica y prometemos enviarlo a cierta hora y lo hacemos llegar más tarde, al otro día o ni se hace llegar.
 
-        .col-md-4.col-xl.mb-4.mb-xl-0
+        .col-10.col-lg-4.mb-4
           .tarjeta-numerada.color-secundario.p-5.w_t_s_2.bgColor_numeral
             .tarjeta-numerada__numero(style="background-color: #CBBFF4 !important")
               .h2 2
 
             p.text-center Cuando constantemente tenemos faltantes en el inventario, es decir, repetidas veces respondemos “me aparecen 50 unidades, pero no están físicas” o “de ese producto no tengo, se me agotó”.
 
-        .col-md-4.col-xl.mb-4.mb-xl-0
+        .col-10.col-lg-4.mb-4
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #4CEBFF !important")
             .tarjeta-numerada__numero(style="background-color: #4CEBFF !important")
               .h2 3
             p.text-center 
-              Cuando se entregan productos completos y a tiempo, pero sus empaques están sucios o rotos, lo que da muy mala impresión del producto al punto de poner en tela de juicio la calidad de este.
+              Cuando Cuando se entregan productos completos y a tiempo, pero sus empaques están sucios o rotos, lo que da muy mala impresión del producto al punto de poner en tela de juicio la calidad de este.
 
       .row.justify-content-center.align-items-center.mt-3
-        .col-lg-4.mb-4
+        .col-10.col-lg-4.mb-4
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #4CEBFF !important")
             .tarjeta-numerada__numero(style="background-color: #4CEBFF !important")
               .h2 4
 
             p.text-center Cuando prometemos que el domicilio llega en media hora y realmente le llega al cliente una hora o hasta más tiempo después.
 
-        .col-lg-4.mb-4
+        .col-10.col-lg-4.mb-4
           .tarjeta-numerada.color-primario.p-5.w_t_s_2(style="border-color: #81D4FA !important")
             .tarjeta-numerada__numero(style="background-color: #81D4FA !important")
               .h2 5
@@ -103,7 +103,7 @@
 
       .col-lg-8
         p <b>Estas son algunas estrategias claves a la hora de organizar los tiempos de entrega:</b>
-        ul.lista-ul--color.lista-ul--separador(style="border-bottom: dotted 2px #B0C0D2;")
+        ul.lista-ul--color.lista-ul--separador.fa-ul2(style="border-bottom: dotted 2px #B0C0D2;")
           li
             i.fas.fa-atom(style='color: #7E5EE3') 
             | Tener claros los canales de distribución.
@@ -112,7 +112,7 @@
             | Tener actualizado el inventario general, para tener claridad en qué se tiene y qué hace falta.
           li
             i.fas.fa-atom(style='color: #7E5EE3') 
-            | Conocer los productos de mayor demanda y así mismos puntos críticos (cierres parciales de laboratorios fabricantes por vacaciones colectivas) que pongan en riesgo la adquisición de estos.
+            | Conocer los productos de mayor demanda y así mismo puntos críticos (cierres parciales de laboratorios fabricantes por vacaciones colectivas) que pongan en riesgo la adquisición de estos.
           li
             i.fas.fa-atom(style='color: #7E5EE3') 
             | Planificar las rutas de distribución, con tiempos definidos reales.
