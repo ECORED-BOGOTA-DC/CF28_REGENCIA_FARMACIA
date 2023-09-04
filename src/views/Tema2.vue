@@ -9,18 +9,18 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-8
-        p <b>La contabilidad es una técnica</b> que tiene como finalidad apoyar y optimizar los procesos de la administración y de la economía en una organización empresarial, su enseñanza requiere de objetivos claramente definidos y prácticos, factibles de aplicar con exacta precisión.
+        p(data-aos="fade-right") <b>La contabilidad es una técnica</b> que tiene como finalidad apoyar y optimizar los procesos de la administración y de la economía en una organización empresarial, su enseñanza requiere de objetivos claramente definidos y prácticos, factibles de aplicar con exacta precisión.
 
-         .cajon.color-secundario.p-4
+         .cajon.color-secundario.p-4(data-aos="fade-right")
           p.mb-0 <b>Decreto 2649 de 1993</b> Por el cual se reglamenta la contabilidad en general y se expiden los principios o normas de contabilidad generalmente aceptados… Art. 1°. <b>Definición</b>. De conformidad con el artículo 68 de la Ley 43 de 1990, se entiende por principios o normas de contabilidad generalmente aceptados en Colombia, el conjunto de conceptos básicos y de reglas que deben ser observados al registrar e informar contablemente sobre los asuntos y actividades de personas naturales  o jurídicas. Apoyándose en ellos, la contabilidad permite identificar, medir, clasificar, registrar, interpretar, analizar, evaluar e informar, las operaciones de un ente económico, en forma clara, completa y fidedigna.
 
-        p A continuación, se explicará su definición, funciones, objetivo, características de la información contable y principios de contabilidad.
+        p(data-aos="fade-right") A continuación, se explicará su definición, funciones, objetivo, características de la información contable y principios de contabilidad.
 
       .col-8.col-lg-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img1.png', alt='alt')
+        figure(data-aos="fade-left")
+          img(src='@/assets/curso/temas/tema2/img1.png', alt='Imágen decorativa')
 
-    .row.justify-content-center.align-items-center.p-4.mt-5.bg-1-tema-2
+    .row.justify-content-center.align-items-center.p-4.mt-5.bg-1-tema-2(data-aos="fade-up")
       .col-lg-9
         p <b>La contabilidad</b> es una actividad complementaria del proceso económico, cuyo fin es brindar apoyo a los procesos administrativos de una compañía haciéndola más eficiente. Los informes y resultados que se entregan como parte de esta actividad son de utilidad para que los Ejecutivos puedan tomar decisiones que orienten el futuro de la empresa. 
 
@@ -28,14 +28,14 @@
 
       .col-10.col-lg-3
         figure
-          img(src='@/assets/curso/temas/tema2/img2.svg', alt='alt').img2-tm2
+          img(src='@/assets/curso/temas/tema2/img2.svg', alt='Imágen decorativa').img2-tm2
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       p.text-center <b>La contabilidad tiene las siguientes funciones:</b>
 
       .col-10.col-lg-4.mb-4
         figure
-          img(src='@/assets/curso/temas/tema2/img3.png', alt='alt')
+          img(src='@/assets/curso/temas/tema2/img3.png', alt='Imágen decorativa')
 
       .col-lg-8
         TabsA.color-secundario
@@ -84,7 +84,7 @@
           p.text-center 
             Cuando Brindar la correcta justificación para el adecuado manejo de los recursos de la compañía. 
    
-    .row.justify-content-center.align-items-center.mt-5.bg-2-tema-2
+    .row.justify-content-center.align-items-center.mt-5.bg-2-tema-2(data-aos="flip-down")
       .col-lg-2
         p <b>Ahora, la información contable tiene como característica que es:</b>
 
@@ -92,8 +92,7 @@
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img4.png', alt='Texto')
-              figcaption Leyenda de la imagen
+              img(src='@/assets/curso/temas/tema2/img4.png', alt='Imagen que contiene las características de la información contable que son:<br>Verdadera y fidedigna<br>Exacta<br>Oportuna<br>Económica<br>Referida a un nivel<br>Clara')
 
           .tarjeta.color-primario--borde.p-3(x="50%" y="4%" numero="+")
             .h5.mb-2 Exacta.
@@ -103,15 +102,15 @@
             .h5.mb-2 Verdadera y fidedigna.
             p Los registros e informes generados deben reflejar la situación real de los hechos.
 
-          .tarjeta.color-primario--borde.p-3(x="9%" y="70%" numero="+")
+          .tarjeta.color-primario--borde.p-3(x="9%" y="76%" numero="+")
             .h5.mb-2 Clara.
             p Reportar información que no induzca al error y que sea muy comprendida por los miembros de la compañía.
 
-          .tarjeta.color-primario--borde.p-3(x="50%" y="91%" numero="+")
+          .tarjeta.color-primario--borde.p-3(x="50%" y="97%" numero="+")
             .h5.mb-2 Referida a un nivel.
             p Elaborada según las necesidades de quien recibirá dicha información (destinatario).
 
-          .tarjeta.color-primario--borde.p-3(x="91%" y="70%" numero="+")
+          .tarjeta.color-primario--borde.p-3(x="91%" y="76%" numero="+")
             .h5.mb-2 Económica.
             p Con un costo inferior al beneficio que reporta.
 

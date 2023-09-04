@@ -229,7 +229,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Bolaño, C. Yy Álvarez, J. (1995). Contabilidad Comercial. Editora norma 1995',
+        'Bolaño, C. Yy Álvarez, J. (1995). Contabilidad Comercial. Editora Norma 1995',
       link: '',
     },
     {
@@ -336,7 +336,7 @@ export default {
         },
         {
           nombre: 'Manuel Felipe Echavarria Orozco',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollo Fullstack',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
@@ -367,11 +367,12 @@ export default {
           nombre: 'Carolina Coca Salazar',
           cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Centro de Gestión De Mercados, Logísti Información - Regional Distrito Capital',
+            'Centro de Gestión De Mercados, Logística Información - Regional Distrito Capital',
         },
         {
           nombre: 'Lina Marcela Pérez Manchego',
-          cargo: 'Validación de recursos educativos digitales',
+          cargo:
+            'Validación de recursos educativos digitales y vinculación al LMS',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
