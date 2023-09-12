@@ -112,7 +112,7 @@
             | Tener actualizado el inventario general, para tener claridad en qué se tiene y qué hace falta.
           li(data-aos="fade-left")
             i.fas.fa-atom(style='color: #7E5EE3') 
-            | Conocer los productos de mayor demanda y así mismo puntos críticos (cierres parciales de laboratorios fabricantes por vacaciones colectivas) que pongan en riesgo la adquisición de estos.
+            | Conocer los productos de mayor demanda y así mismo los puntos críticos (cierres parciales de laboratorios fabricantes por vacaciones colectivas) que pongan en riesgo la adquisición de estos.
           li(data-aos="fade-left")
             i.fas.fa-atom(style='color: #7E5EE3') 
             | Planificar las rutas de distribución, con tiempos definidos reales.

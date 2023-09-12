@@ -229,7 +229,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Bolaño, C. Yy Álvarez, J. (1995). Contabilidad Comercial. Editora Norma 1995',
+        'Bolaño, C. Yy Álvarez, J. (1995). Contabilidad Comercial. Editoriala Norma 1995',
       link: '',
     },
     {
@@ -330,13 +330,13 @@ export default {
       autores: [
         {
           nombre: 'Eulises Orduz Amézquita',
-          cargo: 'Diseño web',
+          cargo: 'Diseño web - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
           nombre: 'Manuel Felipe Echavarria Orozco',
-          cargo: 'Desarrollo Fullstack',
+          cargo: 'Desarrollo Fullstack - 2023',
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
