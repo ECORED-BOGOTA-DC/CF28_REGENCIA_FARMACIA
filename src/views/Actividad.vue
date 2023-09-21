@@ -4,11 +4,11 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
-      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
+      .col-6.col-md-4.col-lg-3.mb-4.mb-md-0(data-aos="fade-right")
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
             img(src="@/assets/template/arrastrar_Soltar.svg", alt="Texto que describa la imagen")
-      .col-12.col-md-8.col-lg-9
+      .col-12.col-md-8.col-lg-9(data-aos="fade-left")
         .titulo-segundo.color-acento-contenido
           h2 Conceptos básicos de estadística
         p.mb-4 Brindar a los aprendices conocimientos y comprensión de conceptos básicos de estadística para análisis de datos y toma de decisiones informadas basadas en evidencia.

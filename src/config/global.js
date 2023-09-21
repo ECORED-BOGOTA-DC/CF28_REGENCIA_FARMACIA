@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Informe de control de inventarios',
     descripcionCurso:
-      'En este componente formativo se abordan los conocimientos de la competencia “Controlar los inventarios según indicadores y métodos”, con el fin de que los aprendices reconozcan cada una de las herramientas y mecanismos de control establecidos por el establecimiento farmacéutico y de tal forma puedan realizar de manera eficaz el seguimiento al inventario. ',
+      'En este componente formativo se abordan los conocimientos relacionados con el control de inventarios, con el fin de que los aprendices reconozcan cada una de las herramientas y mecanismos de control establecidos por el establecimiento farmacéutico y de tal forma puedan realizar de manera eficaz el seguimiento al inventario.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -115,7 +115,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/331502_CF28_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -229,7 +229,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Bolaño, C. Yy Álvarez, J. (1995). Contabilidad Comercial. Editoriala Norma 1995',
+        'Bolaño, C. Yy Álvarez, J. (1995). Contabilidad Comercial. Editorial Norma 1995',
       link: '',
     },
     {
