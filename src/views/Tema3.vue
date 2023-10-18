@@ -41,7 +41,7 @@
     .row.mb-4
       p(data-aos="fade-left") Estas son utilizadas para describir aspectos como el grado de salud y el diagnóstico de las patologías, precisar el alcance y restricción de los programas de salud, así como el éxito y fracaso de estos, entre otros.
       p(data-aos="fade-left") Como se mencionó anteriormente, tener información clara y veraz es fundamental para lograr tomar decisiones certeras en la solución de problemas, por lo cual se requiere de un procesamiento adecuado de los datos.
-      p.mb-0(data-aos="fade-left") La estadística es un campo del conocimiento que proporciona al investigador las herramientas para sacar conclusiones de cierta población en base a la información proporcionada por la muestra, en conclusión, es una ciencia que estudia la recolección, el análisis y la interpretación de datos ya sea como apoyo en la toma de decisiones o para aclarar situaciones regulares o irregulares de algún fenómeno o estudio aplicado (ver figura 1).
+      p.mb-0(data-aos="fade-left") La estadística es un campo del conocimiento que proporciona al investigador las herramientas para sacar conclusiones de cierta población con base en la información proporcionada por la muestra, en conclusión, es una ciencia que estudia la recolección, el análisis y la interpretación de datos ya sea como apoyo en la toma de decisiones o para aclarar situaciones regulares o irregulares de algún fenómeno o estudio aplicado (ver figura 1).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -112,6 +112,9 @@
       h4.text-center.mb-0 La estadística se clasifica en:
     
     .bg1-tema3.mb-4(data-aos="flip-down")
+      .titulo-sexto.color-acento-botones(data-aos="fade-right")
+        h5 Figura 3.
+        span Clasificación de la estadística
       figure
         img(src='@/assets/curso/temas/tema3/img6.svg', alt="Imagen que muestra la clasificación de la estadística, la cual se clasifica en:<br>Estadística descriptiva y estadística inferencial y se explican luego de la imagen.")
 
@@ -228,16 +231,16 @@
                 .tarjeta.color-primario--borde.p-3(x="24%" y="87%" numero="+")
                   p #[b Variables nominales.] Una variable cualitativa nominal presenta modalidades no numéricas que no admiten un criterio de orden. Por ejemplo, no hay una manera común para darle orden a los colores o al estado civil de las personas.
                 .tarjeta.color-primario--borde.p-3(x="42%" y="87%" numero="+")
-                  p #[b Variables ordinales.] Presenta modalidades no numéricas, en las que existe un orden. Por ejemplo: las categorías como se puede calificar un periodo escolar, que se puede ordenar como excelente, bueno, mal
+                  p #[b Variables ordinales.] Presenta modalidades no numéricas, en las que existe un orden. Por ejemplo: las categorías como se puede calificar un periodo escolar, que se puede ordenar como excelente, bueno, mal.
                 .tarjeta.color-primario--borde.p-3(x="81%" y="49%" numero="+")
                   p.mb-0 #[b Variable cuantitativa.] Son las que se describen por medio de números, por ejemplo, la edad de los empleados de una empresa, los individuos que ingresan por día a una IPS, las ventas por día de un establecimiento farmacéutico, la cantidad de productos que vende una distribuidora, etc. 
                   p Estas variables se clasifican en discretas o continuas:
                 .tarjeta.color-primario--borde.p-3(x="61%" y="87%" numero="+")
-                  p #[b Variables discretas.] Estas solamente toman valores enteros como por ejemplo el número de productos que vende un establecimiento farmacéutico, o el número de personas que ingresan a un supermercado.
+                  p #[b Variables discretas.] Estas solamente toman valores enteros, como por ejemplo el número de productos que vende un establecimiento farmacéutico, o el número de personas que ingresan a un supermercado.
                 .tarjeta.color-primario--borde.p-3(x="80%" y="87%" numero="+")
-                  p #[b Variables continúas.] Por medio de estas se realizan mediciones de magnitudes físicas o a características estimables en dinero. También permiten valores fraccionarios o decimales como por ejemplo el peso de una caja con productos, los saldos de las cuentas bancarias, o el tiempo que demora el recorrido de un barco.
+                  p #[b Variables continúas.] Por medio de estas se realizan mediciones de magnitudes físicas o a características estimables en dinero. También permiten valores fraccionarios o decimales, como por ejemplo el peso de una caja con productos, los saldos de las cuentas bancarias, o el tiempo que demora el recorrido de un barco.
                 .tarjeta.color-primario--borde.p-3(x="98%" y="87%" numero="+")
-                  p #[b Variables categóricas.] Está variable facilita el manejo de los datos y por ende ayuda a comprender mejor un fenómeno. Por ejemplo, como cuando las personas que miden menos de 1.50 metros se determinan de estatura baja, las personas que miden entre 1.50 metros y menos de 1.70 se determinan de estatura normal y los individuos que miden 1.70 metros o más se determinan de estatura alta.
+                  p #[b Variables categóricas.] Esta variable facilita el manejo de los datos y por ende ayuda a comprender mejor un fenómeno. Por ejemplo, como cuando las personas que miden menos de 1.50 metros se determinan de estatura baja, las personas que miden entre 1.50 metros y menos de 1.70 se determinan de estatura normal y los individuos que miden 1.70 metros o más se determinan de estatura alta.
 
     .row.mb-4
       .col-lg-7
@@ -250,7 +253,7 @@
 
     .row.mb-4
       p(data-aos="fade-left") Observación y registro del estado de una característica, examinado a todos los elementos de una población.
-      p.mb-0(data-aos="fade-left") Los censos son una técnica muy aplicable ya que los costos y el tiempo que demandan son muy altos. Por lo tanto, lo más viable es tomar los datos reportados por el estado de la variable en forma aleatoria de elementos de la población.
+      p.mb-0(data-aos="fade-left") Los censos son una técnica muy aplicable, ya que los costos y el tiempo que demandan son muy altos. Por lo tanto, lo más viable es tomar los datos reportados por el estado de la variable en forma aleatoria de elementos de la población.
 
     .row.mb-4
       .col-lg-7
@@ -265,7 +268,7 @@
       .col-lg-8.order-lg-1.order-2
         p(data-aos="fade-right") Cuando de una población total, se sustrae una porción conformando un subgrupo, esto quiere decir que solo se le realiza la observación y el registro de la característica a este subgrupo. Se utiliza cuando la población es infinita o extremadamente grande y por ende es casi imposible observar todos sus elementos.
         p(data-aos="fade-right") Las muestras deben ser representativas y para ello se necesita que haya una equivalencia entre las características de la población escogida y las características de la población total.
-        p(data-aos="fade-right") El tamaño de la muestra es la cantidad de elementos que conforman la muestra. Se representa con la letra n. Un ejemplo de esto es: para expresar que una muestra tiene 180 elementos se representa así: n = 180.
+        p(data-aos="fade-right") El tamaño de la muestra es la cantidad de elementos que conforman la muestra. Se representa con la letra n. Un ejemplo de esto es: para expresar que una muestra tiene 180 elementos, se representa así: n = 180.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imágen decorativa')
 
@@ -291,7 +294,7 @@
                   img(src='@/assets/curso/temas/tema1/icon1.svg', alt='Imágen decorativa')
               .list__txt
                 h4.mb-0.tv.margin-icon <span style='border-bottom: 2px solid #00BCD4'>Estadístico o estadígrafo</span>
-        p(data-aos="fade-left") Tiene el mismo modo de operación que el parámetro, pero con la diferencia que en este solo se observan algunos de los elementos de una población, o sea, una muestra. Por ejemplo, la edad promedio de los jóvenes de octavo grado de algunos colegios privados de la Medellín-Antioquía escogidos al azar. El estadístico no es un valor constante ya que varía de una muestra a otra. 
+        p(data-aos="fade-left") Tiene el mismo modo de operación que el parámetro, pero con la diferencia que en este solo se observan algunos de los elementos de una población, o sea, una muestra. Por ejemplo, la edad promedio de los jóvenes de octavo grado de algunos colegios privados de la Medellín-Antioquía escogidos al azar. El estadístico no es un valor constante, ya que varía de una muestra a otra. 
 
     .row.mb-2
       .col-lg-7
@@ -400,7 +403,7 @@
                 img(src='@/assets/curso/temas/tema3/img23.svg', alt='Imágen decorativa')
 
             .tarjeta.color-primario--borde.p-3(x="21%" y="19%" numero="+")
-              p #[b Popular.] Es aquel que se logra por la experiencia que brinda la cotidianidad. Se caracteriza por ser superficial y no sistemático 
+              p #[b Popular.] Es aquel que se logra por la experiencia que brinda la cotidianidad. Se caracteriza por ser superficial y no sistemático.
             .tarjeta.color-primario--borde.p-3(x="77%" y="19%" numero="+")
               p #[b Científico.] Es aquel que es objetivo, real, exhaustivo, sistemático, racional y trascendente. Utiliza el razonamiento y la intuición con el fin de llegar a la verdad, basándose en una evaluación objetiva. Las etapas del método científico son:
             .tarjeta.color-primario--borde.p-3(x="54%" y="79%" numero="+")
@@ -457,7 +460,7 @@
             .col-lg-8.order-lg-1.order-2
               h4 ¿Cuál es el problema?
               p Es necesario conocer la magnitud del problema y los vacíos que existen, con la finalidad de cubrir una necesidad.
-              p Una vez especificado el problema, deben definirse los objetivos generales y específicos de la investigación y, en consecuencia, elaborar el marco teórico ya que es el sustento conceptual de la investigación.
+              p Una vez especificado el problema, deben definirse los objetivos generales y específicos de la investigación y, en consecuencia, elaborar el marco teórico, ya que es el sustento conceptual de la investigación.
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img25.svg', alt='Imágen decorativa')
@@ -466,13 +469,13 @@
             h4 ¿Cómo se hará la investigación?
             p El diseño metodológico implica definir el tipo de estudio, la población y la muestra, la unidad de observación y análisis, la identificación y operacionalización de variables, el plan de recolección, tabulación y análisis, los aspectos éticos del estudio, criterios de inclusión y exclusión, cronograma de actividades, presupuesto y bibliografía.
             p Las variables que se van a medir deben tener una definición operativa, es decir una unidad de medida, naturaleza y nivel de medición. (Se debe tener en cuenta la revisión bibliográfica realizada en el marco teórico).
-            p Luego se definen las técnicas e instrumentos donde está la información (fuentes primarias o secundarias) y que técnica se va a utilizar (observación, encuesta o entrevista). Cualquiera de estas técnicas requiere de un instrumento para registrar la información.
+            p Luego se definen las técnicas e instrumentos donde está la información (fuentes primarias o secundarias) y qué técnica se va a utilizar (observación, encuesta o entrevista). Cualquiera de estas técnicas requiere de un instrumento para registrar la información.
             p En el plan de análisis o de tratamiento estadístico debe definirse si se procederá manualmente o por computador, qué medidas estadísticas se utilizarán para dar cumplimiento a los objetivos y cómo se presentarán los datos.
 
           .row.justify-content-center.align-items-center(data-aos="fade-left")
             .col-lg-8.order-lg-1.order-2
               h4 ¿Es necesario hacer un muestreo?
-              p Teóricamente, en una investigación, el estudio de toda la población sería lo ideal pues se llegaría al conocimiento exacto o casi exacto del fenómeno de interés. Sin embargo, en lo cotidiano esto no es usual, por lo que se puede recurrir a una muestra en vez de la totalidad de la población. 
+              p Teóricamente, en una investigación, el estudio de toda la población sería lo ideal, pues se llegaría al conocimiento exacto o casi exacto del fenómeno de interés. Sin embargo, en lo cotidiano esto no es usual, por lo que se puede recurrir a una muestra en vez de la totalidad de la población. 
             .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/temas/tema3/img26.svg', alt='Imágen decorativa')
@@ -506,11 +509,11 @@
                   img(src='@/assets/curso/temas/tema3/img28.svg', alt='Imágen decorativa')
 
               .tarjeta.color-primario--borde.p-3(x="29%" y="24%" numero="+")
-                p #[b Finalidad de la investigación.] Resultado puntual que se va a logar del estudio estadístico. Normalmente se expresa en forma de una pregunta y a esta se le denomina: pregunta de investigación.
+                p #[b Finalidad de la investigación.] resultado puntual que se va a lugar del estudio estadístico. Normalmente, se expresa en forma de una pregunta y a esta se le denomina: pregunta de investigación.
               .tarjeta.color-primario--borde.p-3(x="63%" y="24%" numero="+")
                 p #[b Naturaleza o clase de los datos.] Todos los datos, que se recolectan sobre un fenómeno, se pueden clasificar básicamente en dos categorías: datos de naturaleza cualitativa y datos de naturaleza cuantitativa.
               .tarjeta.color-primario--borde.p-3(x="29%" y="76%" numero="+")
-                p #[b Fuentes de la información.] Las fuentes de información de donde se pueden obtener los datos son fuentes de información primarias y secundarias. Las fuentes de información son primarias cuando los datos que se procesan se han obtenido directamente (realizadores del estudio) y son secundarias cuando los datos que se procesan se han obtenido a través de otras de otras personas o entidades, como, por ejemplo, el banco de la república, el DANE, la cámara de comercio o cualquier otro estudio ya realizado.
+                p #[b Fuentes de la información.] Las fuentes de información de donde se pueden obtener los datos son fuentes de información primarias y secundarias. Las fuentes de información son primarias cuando los datos que se procesan se han obtenido directamente (realizadores del estudio) y son secundarias cuando los datos que se procesan se han obtenido a través de otras personas o entidades, como, por ejemplo, el banco de la república, el DANE, la cámara de comercio o cualquier otro estudio ya realizado.
               .tarjeta.color-primario--borde.p-3(x="63%" y="76%" numero="+")
                 p #[b Procedimiento para recolectar los datos.] Se refiere a las actividades que se van a ejecutar para recolectar estos datos. Estas actividades pueden ser: observación directa, encuestas individuales a nivel personal o virtual, entrevistas personales, entrevistas grupales, la experimentación.
               .tarjeta.color-primario--borde.p-3(x="98%" y="76%" numero="+")
@@ -559,8 +562,8 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2
-        p(data-aos="fade-right") La información que proporcionan las variables debe presentarse de una manera adecuada. En el campo estadístico existen dos formas básicas de presentación de la información siendo la primera las tablas o cuadros estadísticos y la segunda, la representación gráfica del fenómeno.
-        p(data-aos="fade-right") Una tabla o cuadro estadístico es una representación en forma ordenada de las variaciones de un fenómeno, clasificadas bajo una o más variables; si el fenómeno se clasifica bajo una sola variable recibe el nombre de cuadro o tabla simple y si se clasifica bajo dos o más variables recibe el nombre de cuadro o tabla compuesto.
+        p(data-aos="fade-right") La información que proporcionan las variables debe presentarse de una manera adecuada. En el campo estadístico existen dos formas básicas de presentación de la información, siendo la primera las tablas o cuadros estadísticos y la segunda, la representación gráfica del fenómeno.
+        p(data-aos="fade-right") Una tabla o cuadro estadístico es una representación en forma ordenada de las variaciones de un fenómeno, clasificadas bajo una o más variables; si el fenómeno se clasifica bajo una sola variable, recibe el nombre de cuadro o tabla simple y si se clasifica bajo dos o más variables recibe el nombre de cuadro o tabla compuesto.
         p.mb-0(data-aos="fade-right") La representación más usual del conjunto de datos que constituyen la muestra es la tabla de frecuencias; esta es un cuadro con títulos y leyendas explicativas en el cual aparecen los datos en forma organizada, incluyendo totales, frecuencias y porcentajes.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema3/img32.png', alt='Imágen decorativa')
@@ -575,11 +578,11 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.order-lg-1.order-2
             p En términos generales, una categoría es una agrupación de elementos que poseen una o varias características iguales. Ejemplo, los niños del equipo de baloncesto.
-            p Un conjunto de categorías se considera como una agrupación de clases estadístico siempre y cuando todas las clases, del conjunto, tengan, sincronizadas, estas tres características:
+            p Un conjunto de categorías se considera como una agrupación de clases estadísticas siempre y cuando todas las clases, del conjunto, tengan, sincronizadas, estas tres características:
             ul.lista-ul--color.ps-lg-3.fa-ul2
               li
                 i.fas.fa-atom
-                p.mb-0 <b>Amplitud constante:</b> la amplitud de todas las categorías pertenecientes a un conjunto de categorías (en las cuales se agrupan un determinado grupo de datos) debe ser la misma para todo el conjunto.
+                p.mb-0 <b>Amplitud constante:</b> la amplitud de todas las categorías pertenecientes a un conjunto de categorías (en las cuales se agrupa un determinado grupo de datos) debe ser la misma para todo el conjunto.
               li
                 i.fas.fa-atom
                 p.mb-0 <b>Conjunto de clases mutuamente excluyentes:</b> hace referencia a que, de un grupo de datos en investigación, cualquiera de los datos, debe pertenecer en sentido único a una sola categoría.
@@ -593,7 +596,7 @@
       .p-4.p-md-5(titulo="Clase o categoría estadística" :icono="require('@/assets/curso/temas/tema3/img35.svg')")
         .row.justify-content-center.align-items-center
           .col-lg-6.order-lg-1.order-2
-            p En estadística se denomina clase, al conjunto de datos que hacen parte de un intervalo llamado valores. Por ejemplo, para datos correspondientes a ingresos de personas podemos crear una clase de las personas que tienen ingresos entre $500.000 y $800.000. Toda clase estadística tiene, por lo tanto, un límite inferior y un límite superior. en este caso $500.000 y $800.000 respectivamente.
+            p En estadística se denomina clase, al conjunto de datos que hacen parte de un intervalo llamado valores. Por ejemplo, para datos correspondientes a ingresos de personas podemos crear una clase de las personas que tienen ingresos entre $500.000 y $800.000. Toda clase estadística tiene, por lo tanto, un límite inferior y un límite superior. En este caso $500.000 y $800.000 respectivamente.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema3/img36.png', alt='Imágen decorativa')
@@ -780,7 +783,7 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img43.svg', alt='Imágen decorativa')
             p En este cálculo se puede evidenciar que, para la construcción de la amplitud modificada, se elimina todo decimal de la amplitud, A, calculada. 
-            p Cuando la amplitud modificada es un número impar, las marcas de clase, que se utilizan para representar a las clases, son valores fraccionarios, como ocurre en este ejemplo; esta situación no es cómoda ya que no muestra la realidad en los casos de variable discreta, por lo que es preferible agrupar los datos en clases que sean de amplitud par, como se presenta a continuación, para el mismo ejemplo, donde la amplitud se cambió de 9 transacciones por día a 8 transacciones por día, esto hace que el número de clases pase de 6 a 7.
+            p Cuando la amplitud modificada es un número impar, las marcas de clase, que se utilizan para representar a las clases, son valores fraccionarios, como ocurre en este ejemplo; esta situación no es cómoda, ya que no muestra la realidad en los casos de variable discreta, por lo que es preferible agrupar los datos en clases que sean de amplitud par, como se presenta a continuación, para el mismo ejemplo, donde la amplitud se cambió de 9 transacciones por día a 8 transacciones por día, esto hace que el número de clases pase de 6 a 7.
             b Amod = 8
 
           .row.justify-content-center.align-items-center
@@ -838,7 +841,7 @@
                   p.mb-0 Se calcula el rango: #[b 119 - 62 = 57.]
                 li
                   i.fas.fa-atom(style="color: #29A2D9")
-                  p.mb-0 Calcular la cantidad de clases (intervalos): Con la formula logarítmica para calcular intervalos:
+                  p.mb-0 Calcular la cantidad de clases (intervalos): Con la fórmula logarítmica para calcular intervalos:
                 li
                   i.fas.fa-atom(style="color: #29A2D9")
                   b.mb-0 NoC = 1 + 3.322 x log (n=40) = 6.322 
@@ -984,7 +987,7 @@
         figure(data-aos="fade-right")
           img(src='@/assets/curso/temas/tema3/img48.svg', alt='Imagen que muestra el grafico de barras que ilustra sobre el comportamiento de datos uno de los gráficos más usados es el de barras.')
       .col-lg-7
-        p(data-aos="fade-left") Su construcción se realiza sobre el sistema de ejes cartesianos. Por medio de este se representan datos no numéricos y que no requieren de un orden (nominal) o datos no numéricos pero que si requieren de orden (ordinal).
+        p(data-aos="fade-left") Su construcción se realiza sobre el sistema de ejes cartesianos. Por medio de este se representan datos no numéricos y que no requieren de un orden (nominal) o datos no numéricos, pero que sí requieren de orden (ordinal).
         p(data-aos="fade-left") Cada categoría requiere de una línea vertical en que la altura es la frecuencia absoluta de la categoría. El ancho de la barra es a preferencia de quien realice el gráfico.
         p(data-aos="fade-left") Otra razón para ser utilizado es cuando la variable en investigación es numérica discreta. 
 
@@ -1064,7 +1067,7 @@
 
           .row.justify-content-center.align-items-center
             b.text-center.mb-4 Como interpretar un histograma o un polígono de frecuencias
-            p En el momento en el que una persona requiere tomar una decisión acerca de una puntual situación, o necesita tener una visión rápida tanto del comportamiento como de las características de un acontecimiento en estudio, los histogramas y los polígonos de frecuencias son la mejor opción ya que favorecen esa toma de decisiones.
+            p En el momento en el que una persona requiere tomar una decisión acerca de una puntual situación, o necesita tener una visión rápida tanto del comportamiento como de las características de un acontecimiento en estudio, los histogramas y los polígonos de frecuencias son la mejor opción, ya que favorecen esa toma de decisiones.
             p Algunas de las preguntas que se pueden responder observando estas gráficas son:
             .row.justify-content-center.align-items-center
               .col-lg-6.order-lg-1.order-2

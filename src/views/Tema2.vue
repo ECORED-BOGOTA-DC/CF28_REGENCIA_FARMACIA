@@ -99,7 +99,7 @@
 
     .row.justify-content-center.align-items-center.mt-3
       .col-9(data-aos="fade-right")
-        p.text-center <b>Por último, a continuación se puede reconocer los principios contables de aceptación general, definidos según características del medio ambiente en el que se mueve el mundo de la contabilidad.</b>
+        p.text-center <b>Por último, a continuación, se puede reconocer los principios contables de aceptación general, definidos según características del medio ambiente en el que se mueve el mundo de la contabilidad.</b>
 
     LineaTiempoD.color-acento-contenido.mt-5(data-aos="fade-right")
       .row(numero="1" titulo="Equidad")
@@ -128,7 +128,7 @@
       
       .row(numero="7" titulo="Devengado")
         .col-md-12.mb-4.mb-md-0
-          p.mb-0 Cuando se compra o se vende mercancías si que eso esté saldado con los proveedores o clientes, eso debe ser registrado en caso de que sea una venta o compra y el cobro o pago cuando se produzca.
+          p.mb-0 Cuando se compra o se vende mercancías, sí que eso esté saldado con los proveedores o clientes, eso debe ser registrado en caso de que sea una venta o compra y el cobro o pago cuando se produzca.
 
       .row(numero="8" titulo="Realización")
         .col-md-12.mb-4.mb-md-0
@@ -140,11 +140,11 @@
 
       .row(numero="10" titulo="Objetividad")
         .col-md-12.mb-4.mb-md-0
-          p.mb-0 El principio de la objetividad busca evaluar de manera contable todas aquellas actividades económicas y financieras en que la empresa participa. Sólo se debe registrar las operaciones cuando se tenga soportes que evidencien qué sucedió y se conozca su valor. 
+          p.mb-0 El principio de la objetividad busca evaluar de manera contable todas aquellas actividades económicas y financieras en que la empresa participa. Solo se debe registrar las operaciones cuando se tenga soportes que evidencien qué sucedió y se conozca su valor. 
       
       .row(numero="11" titulo="Criterio prudencial")
         .col-md-12.mb-4.mb-md-0
-          p.mb-0 Dicho criterio contable representa uno clasificado como general o genérico, el cual obliga a tomar en cuenta todos la información y criterios de juicios que se encuentren disponibles para que la elección, dentro de las alternativas que se tengan, sea la correcta. Esto con el objetivo de cuantificar todos los aspectos contables con una certeza mayor.
+          p.mb-0 Dicho criterio contable representa uno clasificado como general o genérico, el cual obliga a tomar en cuenta toda la información y criterios de juicios que se encuentren disponibles para que la elección, dentro de las alternativas que se tengan, sea la correcta. Esto con el objetivo de cuantificar todos los aspectos contables con una certeza mayor.
 
       .row(numero="12" titulo="Importancia relativa")
         .col-md-12.mb-4.mb-md-0

@@ -12,7 +12,7 @@
     figure(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/vOMeQvyplDw?si=ftNjKyqUMBH1fnsJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+      figcaption Informe de control de inventarios
     
 </template>
 

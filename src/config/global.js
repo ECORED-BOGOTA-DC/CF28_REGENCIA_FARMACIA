@@ -244,7 +244,7 @@ export default {
     },
     {
       referencia:
-        'Cajas Vissoni, J. (2005). Manual de contabilidad básica. 14/08/2018, de studylib Sitio web:',
+        'Cajas Vissoni, J. (2005). Conceptos generales de contabilidad. 14/08/2018, de studylib Sitio web: ',
       link: 'http://studylib.es/doc/640313/conceptos-generales-de-contabilidad',
     },
     {
@@ -254,7 +254,7 @@ export default {
     },
     {
       referencia:
-        'Quijano, V. (2021). Importancia del cumplimiento de promesas con los clientes.',
+        'Quijano, V. (2021). ¿Qué es el cumplimiento de promesas y por qué es tan importante para los clientes?. ',
       link:
         'https://victorquijano.com/blog/que-es-el-cumplimiento-de-promesas-y-por-que-es-tan-importante-para-los-clientes/',
     },
