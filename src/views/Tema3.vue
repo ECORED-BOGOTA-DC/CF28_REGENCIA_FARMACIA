@@ -41,7 +41,7 @@
     .row.mb-4
       p(data-aos="fade-left") Estas son utilizadas para describir aspectos como el grado de salud y el diagnóstico de las patologías, precisar el alcance y restricción de los programas de salud, así como el éxito y fracaso de estos, entre otros.
       p(data-aos="fade-left") Como se mencionó anteriormente, tener información clara y veraz es fundamental para lograr tomar decisiones certeras en la solución de problemas, por lo cual se requiere de un procesamiento adecuado de los datos.
-      p.mb-0(data-aos="fade-left") La estadística es un campo del conocimiento que proporciona al investigador las herramientas para sacar conclusiones de cierta población con base en la información proporcionada por la muestra, en conclusión, es una ciencia que estudia la recolección, el análisis y la interpretación de datos ya sea como apoyo en la toma de decisiones o para aclarar situaciones regulares o irregulares de algún fenómeno o estudio aplicado (ver figura 1).
+      p.mb-0(data-aos="fade-left") La estadística es un campo del conocimiento que proporciona al investigador las herramientas para sacar conclusiones de cierta población con base en la información proporcionada por la muestra, en conclusión, es una ciencia que estudia la recolección, el análisis y la interpretación de datos, ya sea como apoyo en la toma de decisiones o para aclarar situaciones regulares o irregulares de algún fenómeno o estudio aplicado (ver figura 1).
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
@@ -509,7 +509,7 @@
                   img(src='@/assets/curso/temas/tema3/img28.svg', alt='Imágen decorativa')
 
               .tarjeta.color-primario--borde.p-3(x="29%" y="24%" numero="+")
-                p #[b Finalidad de la investigación.] resultado puntual que se va a lugar del estudio estadístico. Normalmente, se expresa en forma de una pregunta y a esta se le denomina: pregunta de investigación.
+                p #[b Finalidad de la investigación.] Resultado puntual que se va a lugar del estudio estadístico. Normalmente, se expresa en forma de una pregunta y a esta se le denomina: pregunta de investigación.
               .tarjeta.color-primario--borde.p-3(x="63%" y="24%" numero="+")
                 p #[b Naturaleza o clase de los datos.] Todos los datos, que se recolectan sobre un fenómeno, se pueden clasificar básicamente en dos categorías: datos de naturaleza cualitativa y datos de naturaleza cuantitativa.
               .tarjeta.color-primario--borde.p-3(x="29%" y="76%" numero="+")
